@@ -1,0 +1,12 @@
+**/__pycache__/
+*.py[cod]
+
+**/.mypy_cache/
+
+venv/
+.venv/
+
+.idea/
+.vscode/
+
+**/camera_calibration.npz

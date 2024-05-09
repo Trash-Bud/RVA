@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Normal_Attack" size="1.000000 0.994624" />
+    <ImageTarget name="Special_Attack" size="1.000000 0.994624" />
+    <ImageTarget name="Rhino_Card" size="1.000000 1.537021" />
+    <ImageTarget name="Catctus_Card" size="1.000000 1.537872" />
+    <ImageTarget name="Beetle_Card" size="1.000000 1.539575" />
+  </Tracking>
+</QCARConfig>

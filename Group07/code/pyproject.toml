@@ -1,0 +1,40 @@
+[project]
+name = "rva-proj1"
+version = "0.0.0"
+authors = [
+    { name = "Alberto Cunha", email = "up201906325@edu.fe.up.pt" },
+    { name = "Joana Mesquita", email = "up201907878@edu.fe.up.pt" },
+    { name = "Joaquim Monteiro", email = "up201905257@edu.fe.up.pt" }
+]
+dependencies = [
+    "moderngl>=5.8.2",
+    "moderngl-window>=2.4.5",
+    "opencv-python>=4.8.1.78",
+]
+requires-python = ">= 3.10"
+
+[project.scripts]
+rva-proj1 = 'rva_proj1:main'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "black>=23.9.1",
+    "ruff>=0.0.292",
+    "mypy>=1.6.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
